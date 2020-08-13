@@ -17,22 +17,19 @@
 	</head>
 <body>
 	
-	<header class="header-area">
+	<header class="header-area d-none">
 		<div class="container">
-			
 			
 			<nav class="navbar navbar-expand-lg navbar-light">
 			  
 				
-				
-			 
-
-			  <div class="	 navbar-collapse" id="navbar">
-				<ul class="navbar-nav mx-auto">
-				 
 			
+
+			  <div class=" navbar-collapse" id="navbar">
+				<ul class="navbar-nav mx-auto">
+				
 				  <li class="nav-item">
-					<a class="nav-link" href="#reserva">RESERVA AGORA MESMO</a>
+					<a class="nav-link active" href="#reserva" data-toggle="tab">RESERVA AGORA MISMO</a>
 				  </li>
 				
 				  
@@ -40,8 +37,11 @@
 				  </ul>
 			  </div>
 			</nav>
+				  
+			  </div>
 			
-		</div>
+			
+		
 	</header>
 	
 	<section id="home">
@@ -67,9 +67,10 @@
 	<div class="row">
 <article class="col-md-6 col-sm-12 section">
 
-	<img src="img/Recurso 3.svg"; width="70%"; class="cupon1 wow fadeInLeft">
+	
+	<img src="img/Recurso 3.svg" width="70%" class="cupon1 wow fadeInLeft">
 	</article>
-<article class="col-md-6 col-sm-12 section ">
+<article class="col-md-6 col-sm-12 section">
 
 	<p class="p1">
 	<span class="texto1 wow fadeInLeftBig">25% OFF</span>
@@ -115,6 +116,7 @@ benefício<br>
 			
 </div>	
 			
+			
 		<div id="reserva" class="row" style="padding: 30px 0px 50px 0px">
 <article class="col-md-12 col-sm-12 col-xs-12 text-center">	
 	<p class="texto5">Faça sua reserva através do <span style="font-weight: 800">Whatsapp</span></p>
@@ -127,7 +129,7 @@ benefício<br>
 	<a class="btn-dark btn-baggio" style="margin-bottom: 30px" href="https://wa.me/+5554981135070?text=Ol%C3%A1%2C%20Gostaria%20de%20fazer%20uma%20reserva.%0AQual%20seu%20nome%3F%3A%0AReserva%20para%20quantas%20pessoas%3F%3A%0AQual%20o%20hor%C3%A1rio%20de%20chegada%3F%3A" target="_blank" >Reservar</a></div>
 	
 </article>
-<p>
+
 	
 	
 	
@@ -152,7 +154,7 @@ benefício<br>
 				
 			<li class="list-inline-item">
 					
-				<a href="https://www.facebook.com/baggiochurrascaria/" target="_blank"><img src="img/Recurso 10.svg" class="redes wow fadeInUp">
+				<a href="https://www.facebook.com/baggiochurrascaria/" target="_blank"><img src="img/Recurso 10.svg" class="redes wow fadeInUp"></a>
 				
 				<a href="https://www.instagram.com/baggiochurrascaria/" target="_blank"><img src="img/Recurso 11.svg" class="redes wow fadeInUp" data-wow-delay="0.5s"></a>
 				
@@ -171,10 +173,11 @@ benefício<br>
 	<script src="js/owl.carousel.min.js"></script>
 	<script src="js/jquery.easing.min.js"></script>
 	<script src="js/jquery.nav.js"></script>
-    <script>
+    
+	<script>
 		$(function() {
 			$(window).on('scroll', function () {
-				if ($(window).scrollTop() > 48) {
+				if ($(window).scrollTop() > 70) {
 					$('.header-area').addClass('sticky slideInDown');
 				} else {
 					$('.header-area').removeClass('sticky slideInDown');
@@ -190,7 +193,12 @@ benefício<br>
 			
 			
 		});
+		
+		
 	</script>
+	
+	
+	
 	<script src="js/wow.min.js"></script>
               <script>
               new WOW().init();
