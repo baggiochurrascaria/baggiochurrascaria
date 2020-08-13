@@ -34,8 +34,15 @@ p{font-size: 15px;}
 
 
 .img1{width: 40%; padding: 100px 0px 80px 0px}
-.img2{width: 80%; padding: 200px 0px 80px 0px}
-.img2{width: 80%; padding: 200px 0px 80px 0px}
+.img2{width: 70%; display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%; padding: 130px 0px}
+
+
+.texto6{font-size: 14px; font-weight: 400; margin-bottom: 30px}
+.texto7{font-size: 16px;font-style:italic; line-height: 29px; margin-bottom: 50px}
+.blog{width: 30%; margin: 0px 0px 12px 0px}
 
 .btn-baggio{padding: 3px 100px; font-size: 24px; border: 2px solid #ffffff; border-radius: 80px; background-color: hsla(0,0%,0%,0.00); margin-bottom: 20px!important}
 
@@ -54,7 +61,7 @@ a:hover{text-decoration: none}
 
 .texto3{font-size: 64px; color: #ffffff; margin-right: 16px; font-weight: 600; line-height: 70px}
 
-.texto4{text-transform: uppercase; padding: 100px 0px; text-align: left; font-size: 50px; line-height: 55px; font-weight: 700}
+.texto4{text-transform: uppercase; padding: 100px 0px 0px 0px; text-align: left; font-size: 50px; line-height: 55px; font-weight: 700}
 
 .texto5{text-align: center!important; font-size: 28px; font-weight: 300; margin: 30px 0px!important}
 
@@ -84,7 +91,10 @@ footer{padding: 30px 0px; background-color: #000; text-align: center; color: #ff
 @media (max-width: 435px) {
 	
 	.img1{width: 45%; padding: 70px 0px 20px 0px}
-	.img2{width: 55%; padding: 20px 0px 50px 0px; margin: 0% 22%; text-align: center!important}
+	.img2{width: 65%; padding: 50px 0px 50px 0px; display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%; text-align: center!important}
 	
 	.p1{text-align: center; padding: 10px 0px}
 	
@@ -100,7 +110,9 @@ footer{padding: 30px 0px; background-color: #000; text-align: center; color: #ff
 	
 	.texto5{text-align: center!important; font-size: 25px; font-weight: 300; margin: 30px 0px!important}
 	
-.tripadvisor{padding: 0% 20%}
+.tripadvisor{display: block;
+  margin-left: auto;
+  margin-right: auto;}
 	
 	.whatsapp{width: 7%; margin: 0px 7px 5px 0px}
 
@@ -112,6 +124,11 @@ footer{padding: 30px 0px; background-color: #000; text-align: center; color: #ff
 	
 	.direccion{text-align: center!important; font-size: 22px; font-weight: 300; margin: 30px 0px!important}
 	
+	.texto6{font-size: 14px; font-weight: 400; margin-bottom: 50px; text-align: center}
+.texto7{font-size: 16px;font-style:italic; line-height: 29px; margin-bottom: 100px; text-align: center}
+.blog{width: 45%;   display: block;
+  margin-left: auto;
+  margin-right: auto;}
 
 }
 
