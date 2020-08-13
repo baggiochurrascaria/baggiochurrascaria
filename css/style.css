@@ -1,4 +1,4 @@
-body{font-family: 'Jost', sans-serif; color: #383838}
+body{font-family: 'Jost', sans-serif; color: #383838; background-color: #000000}
 
 .header-area.sticky {
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
@@ -54,7 +54,7 @@ a:hover{text-decoration: none}
 
 .texto3{font-size: 64px; color: #ffffff; margin-right: 16px; font-weight: 600; line-height: 70px}
 
-.texto4{text-transform: uppercase; padding: 100px 0px; text-align: left!important; font-size: 50px; line-height: 55px; font-weight: 700}
+.texto4{text-transform: uppercase; padding: 100px 0px; text-align: left; font-size: 50px; line-height: 55px; font-weight: 700}
 
 .texto5{text-align: center!important; font-size: 28px; font-weight: 300; margin: 30px 0px!important}
 
@@ -85,7 +85,7 @@ footer{padding: 30px 0px; background-color: #000; text-align: center; color: #ff
 
 .texto3{font-size: 45px; color: #ffffff; margin-right: 11px; font-weight: 600; line-height: 50px}
 	
-.texto4{text-transform: uppercase; padding: 60px 0px 30px 0px; text-align: center!important; font-size: 30px; line-height: 35px; font-weight: 700}
+.texto4{text-transform: uppercase; padding: 60px 0px 30px 0px!important; text-align: center!important; font-size: 30px; line-height: 40px!important; font-weight: 700}
 	
 	.texto5{text-align: center!important; font-size: 25px; font-weight: 300; margin: 30px 0px!important}
 	
@@ -113,7 +113,7 @@ footer{padding: 30px 0px; background-color: #000; text-align: center; color: #ff
 .texto3{font-size: 45px; color: #ffffff; margin-right: 11px; font-weight: 600; line-height: 50px}
 	
 	
-	.texto4{text-transform: uppercase; padding: 140px 0px 30px 0px; text-align: left!important; font-size: 40px; line-height: 35px; font-weight: 700}
+	.texto4{text-transform: uppercase; padding: 140px 0px 30px 0px; text-align: left; font-size: 40px; line-height: 35px; font-weight: 700}
 	.nav-link{text-align: right!important}
 }
 
